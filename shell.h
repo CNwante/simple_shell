@@ -219,5 +219,7 @@ char *_strcat(char *, char *);
 /*==== string1.c ====*/
 char *_strcpy(char *, char *);
 char *_strdup(const char *);
+void _puts(char *);
+int _putchar(char);
 
 #endif
