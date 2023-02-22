@@ -4,7 +4,7 @@
 /*
  * ==== AUTHOR ====
  * Solomon Nwante
- *
+ * Gloria Duncan
  */
 
 #include <stdio.h>
