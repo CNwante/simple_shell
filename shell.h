@@ -213,6 +213,8 @@ void fork_cmd(info_t *);
 /*==== string.c ====*/
 int _strlen(char *);
 int _strcmp(char *, char *);
+char *starts_with(const char *, const char *);
+char *_strcat(char *, char *);
 
 /*==== string1.c ====*/
 char *_strcpy(char *, char *);
