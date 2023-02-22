@@ -144,6 +144,12 @@ int _eputchar(char);
 int _putfd(char c, int fd);
 int _putsfd(char *str, int fd);
 
+/*==== errors1.c ====*/
+int _erratoi(char *);
+void print_error(info_t *, char *);
+int print_d(int, int);
+char *convert_number(long int, int, int);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
