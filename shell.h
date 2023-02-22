@@ -212,4 +212,8 @@ int find_builtin(info_t *);
 int _strlen(char *);
 int _strcmp(char *, char *);
 
+/*==== string1.c ====*/
+char *_strcpy(char *, char *);
+char *_strdup(const char *);
+
 #endif
