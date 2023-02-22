@@ -1,3 +1,10 @@
+/*
+* ==== AUTHOR ====
+* 
+* Gloria Duncan
+*/
+
+
 #include "shell.h"
 
 /**
