@@ -222,4 +222,7 @@ char *_strdup(const char *);
 void _puts(char *);
 int _putchar(char);
 
+/*==== tokenizer.c ====*/
+char **strtow(char *, char *);
+
 #endif
