@@ -192,6 +192,9 @@ size_t print_list(const list_t *);
 list_t *node_starts_with(list_t *, char *, char);
 ssize_t get_node_index(list_t *, list_t *);
 
+/*==== memory.c ====*/
+int bfree(void **);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
