@@ -129,6 +129,7 @@ int _myhelp(info_t *);
 
 /*==== builtin1.c ====*/
 int _myhistory(info_t *);
+int _myalias(info_t *);
 
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
