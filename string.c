@@ -1,6 +1,6 @@
 /*
 * ==== AUTHOR ====
-* 
+* Solomon Nwante
 * Gloria Duncan
 */
 
