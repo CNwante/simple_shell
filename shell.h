@@ -164,6 +164,7 @@ int _setenv(info_t *, char *, char *);
 /*==== getinfo.c ====*/
 void clear_info(info_t *);
 void set_info(info_t *, char **);
+void free_info(info_t *, int);
 
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
