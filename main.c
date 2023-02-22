@@ -1,6 +1,7 @@
 /*
  * File: main.c
  * Auth: Solomon Nwante
+ *	 Gloria Duncan
  */
 
 #include "shell.h"
