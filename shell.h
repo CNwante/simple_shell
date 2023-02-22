@@ -130,5 +130,6 @@ char *find_path(info_t *, char *, char *);
 /*==== builtin.c ====*/
 int _myexit(info_t *);
 int _mycd(info_t *);
+int _myhelp(info_t *);
 
 #endif
