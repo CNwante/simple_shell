@@ -127,9 +127,13 @@ int _myexit(info_t *);
 int _mycd(info_t *);
 int _myhelp(info_t *);
 
+/*==== builtin1.c ====*/
+int _myhistory(info_t *);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
 char *find_path(info_t *, char *, char *);
+
 
 #endif
