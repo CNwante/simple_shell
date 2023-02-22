@@ -225,4 +225,9 @@ int _putchar(char);
 /*==== tokenizer.c ====*/
 char **strtow(char *, char *);
 
+/*==== vars.c ====*/
+int is_chain(info_t *, char *, size_t *);
+void check_chain(info_t *, char *, size_t *, size_t, size_t);
+int replace_alias(info_t *);
+
 #endif
