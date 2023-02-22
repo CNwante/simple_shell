@@ -118,5 +118,6 @@ typedef struct builtin
 /*==== atoi.c ====*/
 int interactive(info_t *);
 int is_delim(char, char *);
+int _isalpha(int);
 
 #endif
