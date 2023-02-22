@@ -171,6 +171,11 @@ ssize_t get_input(info_t *);
 int _getline(info_t *, char **, size_t *);
 void sigintHandler(int);
 
+/*==== history.c ====*/
+char *get_history_file(info_t *info);
+int write_history(info_t *info);
+int read_history(info_t *info);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
