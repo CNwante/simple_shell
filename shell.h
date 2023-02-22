@@ -208,4 +208,8 @@ void ffree(char **);
 int hsh(info_t *, char **);
 int find_builtin(info_t *);
 
+/*==== string.c ====*/
+int _strlen(char *);
+int _strcmp(char *, char *);
+
 #endif
