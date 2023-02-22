@@ -161,6 +161,10 @@ char **get_environ(info_t *);
 int _unsetenv(info_t *, char *);
 int _setenv(info_t *, char *, char *);
 
+/*==== getinfo.c ====*/
+void clear_info(info_t *);
+void set_info(info_t *, char **);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
