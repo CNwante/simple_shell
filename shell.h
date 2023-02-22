@@ -141,6 +141,8 @@ int populate_env_list(info_t *);
 /*==== errors.c ====*/
 void _eputs(char *);
 int _eputchar(char);
+int _putfd(char c, int fd);
+int _putsfd(char *str, int fd);
 
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
