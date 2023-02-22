@@ -204,4 +204,8 @@ char *find_path(info_t *, char *, char *);
 char *_memset(char *, char, unsigned int);
 void ffree(char **);
 
+/*=== shell_loop.c ====*/
+int hsh(info_t *, char **);
+int find_builtin(info_t *);
+
 #endif
