@@ -138,6 +138,10 @@ int _mysetenv(info_t *);
 int _myunsetenv(info_t *);
 int populate_env_list(info_t *);
 
+/*==== errors.c ====*/
+void _eputs(char *);
+int _eputchar(char);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
