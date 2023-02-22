@@ -1,10 +1,11 @@
-/*
- * File: shell.h
- * Auth: Solomon Nwante
- */
-
 #ifndef _SIMPLE_SHELL_H_
 #define _SIMPLE_SHELL_H_
+
+/*
+ * ==== AUTHOR ====
+ * Solomon Nwante
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
