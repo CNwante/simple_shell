@@ -159,6 +159,7 @@ char *_strchr(char *, char);
 /*==== getenv.c ====*/
 char **get_environ(info_t *);
 int _unsetenv(info_t *, char *);
+int _setenv(info_t *, char *, char *);
 
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
