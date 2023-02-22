@@ -224,6 +224,7 @@ int _putchar(char);
 
 /*==== tokenizer.c ====*/
 char **strtow(char *, char *);
+char **strtow2(char *, char);
 
 /*==== vars.c ====*/
 int is_chain(info_t *, char *, size_t *);
