@@ -156,6 +156,10 @@ char *_strncpy(char *, char *, int);
 char *_strncat(char *, char *, int);
 char *_strchr(char *, char);
 
+/*==== getenv.c ====*/
+char **get_environ(info_t *);
+int _unsetenv(info_t *, char *);
+
 /*==== parser.c ====*/
 int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
