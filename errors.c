@@ -1,3 +1,9 @@
+/*
+* ==== AUTHOR ====
+* Solomon Nwante
+*
+*/
+
 #include "shell.h"
 
 /**
