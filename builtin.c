@@ -1,8 +1,8 @@
 /*
- * ==== AUTHOR ====
- * Solomon Nwante
- * Gloria Duncan
- */
+* ==== AUTHOR ====
+* Solomon Nwante
+* Gloria Duncan
+*/
 
 #include "shell.h"
 
@@ -17,7 +17,7 @@ int _myexit(info_t *info)
 {
 	int exitcheck;
 
-	if (info->argv[1]) /*==== If there is an exit arguement ====*/
+	if (info->argv[1]) /* If there is an exit arguement */
 	{
 		exitcheck = _erratoi(info->argv[1]);
 		if (exitcheck == -1)

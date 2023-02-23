@@ -1,8 +1,8 @@
 /*
- * ==== AUTHOR ====
- * 
- * Gloria Duncan
- */
+* ==== AUTHOR ====
+* Solomon Nwante
+* Gloria Duncan
+*/
 
 #include "shell.h"
 
