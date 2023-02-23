@@ -1,8 +1,9 @@
 /*
- * File: parser.c
- * Auth: Solomon Nwante
- *       
- */
+* ==== AUTHOR ====
+* Solomon Nwante
+* Gloria Duncan
+*/
+
 #include "shell.h"
 
 /**
